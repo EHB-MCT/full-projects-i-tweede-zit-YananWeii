@@ -1,12 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 body {
     background-color: #f1f1f1;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 13px;
 }
 
 ul {
     list-style-type: none;
-    margin: 2px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
     width: 100px;
+    position: fixed;
+    margin-top: 150px
 }
 
 li a {
@@ -21,17 +34,32 @@ li a:hover {
     color: white;
 }
 
-li a.active {
+a {
+    display: block;
+    width: 140px;
+}
+
+a.active {
     background-color: #4CAF50;
     color: white;
 }
 
-a {
+.info {
+    padding-top: 3%;
+    float: right;
+    width: 830px;
     display: block;
-    width: 50px;
 }
 
-.home-image {
+.info-image {
+    padding-top: 8%;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 450px;
     float: right;
-    width: 100px;
+}
+
+
+img {
+    max-width: 450px;
 }
