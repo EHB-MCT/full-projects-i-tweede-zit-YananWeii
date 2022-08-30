@@ -74,7 +74,9 @@ a {
     width: 100px;
 }
 
-
+p {
+    text-align: left;
+}
 
 .info {
     padding-top: 2%;
