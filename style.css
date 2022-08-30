@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
+    background: url(image/B-ILD_LEVENSLUST_10.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     background-color: #f1f1f1;
     font-family: 'Inter', sans-serif;
+}
+
+.logo {
+    position: fixed;
+    max-width: 120px;
 }
 
 h1 {
@@ -45,14 +54,14 @@ a.active {
 }
 
 .info {
-    padding-top: 3%;
+    padding-top: 0%;
     float: right;
-    width: 830px;
+    width: 800px;
     display: block;
 }
 
 .info-image {
-    padding-top: 8%;
+    padding-top: 6%;
     padding-left: 3%;
     padding-right: 3%;
     width: 450px;
@@ -60,6 +69,6 @@ a.active {
 }
 
 
-img {
+.info-image {
     max-width: 450px;
 }
