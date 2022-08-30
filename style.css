@@ -1,17 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Inter&display=swap');
 
 body {
-    background: url(image/B-ILD_LEVENSLUST_10.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     font-family: 'Inter', sans-serif;
+}
+
+
+.huis {
+    padding-left: 70px;
+    padding-top: 0px;
+}
+
+.huis-image {
+    max-width: 110%;
+
+}
+
+.huis-text {
+    padding-right: 20%;
+    padding-left: 25%;
+    font-family: 'Aboreto', cursive;
+
+}
+
+.blue {
+
+    color: rgb(1, 130, 182);
+}
+
+.huis-text .h1 {
+    padding-left: 30px;
+
 }
 
 .logo {
     position: fixed;
     max-width: 120px;
+    padding-top: 0.5%;
 }
 
 h1 {
@@ -26,7 +52,7 @@ ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    width: 100px;
+    width: 10px;
     position: fixed;
     margin-top: 150px
 }
@@ -34,41 +60,44 @@ ul {
 li a {
     display: block;
     color: #000;
-    padding: 8px 16px;
+    padding: 8px 30px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #555;
-    color: white;
+
+    color: rgb(156, 16, 16);
 }
 
 a {
     display: block;
-    width: 140px;
+    width: 100px;
 }
 
-a.active {
-    background-color: #4CAF50;
-    color: white;
-}
+
 
 .info {
-    padding-top: 0%;
+    padding-top: 2%;
     float: right;
     width: 800px;
     display: block;
 }
 
 .info-image {
-    padding-top: 6%;
+    padding-top: 5%;
     padding-left: 3%;
     padding-right: 3%;
     width: 450px;
     float: right;
+    max-width: 450px;
 }
 
-
-.info-image {
+.vrijwilligers-image {
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 450px;
+    float: right;
     max-width: 450px;
+
 }
