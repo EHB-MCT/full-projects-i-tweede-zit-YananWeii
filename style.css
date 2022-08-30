@@ -4,7 +4,7 @@
 body {
     background-color: #ffffff;
     font-family: 'Inter', sans-serif;
-
+    min-width: auto;
 }
 
 
@@ -15,14 +15,39 @@ body {
 
 .huis-image {
     max-width: 110%;
+}
 
+.huis-image1 {
+    max-width: 80%;
+    padding-left: 15%;
 }
 
 .huis-text {
     padding-right: 20%;
     padding-left: 25%;
     font-family: 'Aboreto', cursive;
+}
 
+.huis-text1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 8%;
+}
+
+.foto-huis {
+    font-size: 18px;
+    width: 250px;
+    padding-left: 40%;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20%;
+}
+
+.foto-huis:hover {
+    color: rgb(156, 16, 16);
 }
 
 .blue {
@@ -35,7 +60,7 @@ span {
 
 
 .huis-text .h1 {
-    padding-left: 30px;
+    padding-left: 50px;
 
 }
 
@@ -124,4 +149,13 @@ p {
     padding-top: 31%;
     display: block;
     position: fixed;
+}
+
+
+@media screen and (max-width:414px) {
+    div {
+        width: 1000px;
+
+    }
+
 }
